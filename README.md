@@ -71,3 +71,33 @@ Endpoint ini hanya menggunakan metode `POST`
     }
 }
 ```
+
+`https://api.trakteer.id/v1/user/recent-activities`
+### Parameter
+- `id` - Ini adalah id, dapat ditemukan di DevTools
+- `Authorization` - Token untuk authorization, bisa ditemukan di DevTools
+
+Endpoint ini hanya menggunakan metode `POST`
+### Hasil
+```json
+{
+    "data": [
+        {
+            "page": "page",
+            "image": "imageurl"
+        },
+        {
+            "page": "page",
+            "image": "imageurl"
+        },
+        {
+            "page": "page",
+            "image": "imageurl"
+        }
+    ],
+    "meta": {
+        "include": [],
+        "custom": []
+    }
+}
+```
