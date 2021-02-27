@@ -1,5 +1,5 @@
 # TrakteerScrap
-Ini adalah dokumentasi dari API Trakteer yang saya scrap sendiri
+Ini adalah dokumentasi dari API Trakteer yang saya scrap sendiri, kalau ada endpoint lagi bisa kalian tambahkan disini!
 
 # Daftar Endpoint
 
