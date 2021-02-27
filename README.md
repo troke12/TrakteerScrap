@@ -2,6 +2,8 @@
 Ini adalah dokumentasi dari API Trakteer yang saya scrap sendiri
 
 # Daftar Endpoint
+
+## Notifications
 `https://api.trakteer.id/v1/user/notifications`
 ### Parameter
 - `id` - Ini adalah id, dapat ditemukan di DevTools
@@ -72,6 +74,7 @@ Endpoint ini hanya menggunakan metode `POST`
 }
 ```
 
+## Recent Activities
 `https://api.trakteer.id/v1/user/recent-activities`
 ### Parameter
 - `id` - Ini adalah id, dapat ditemukan di DevTools
